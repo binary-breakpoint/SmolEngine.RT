@@ -1,7 +1,7 @@
 # SmolEngine SDK
 ![SmolEngine](https://i.imgur.com/ZSfnTCi.png)
 
-SmoEngine is an experimental 3D game engine based on the idea of creating a high-performance, easy-to-use ray tracing-only game engine. This project is being actively developed by one person, and at this early stage it should only be considered as a tech demo. At the moment only precompiled binaries are available, but this may change in the future.
+SmoEngine is an experimental 3D game engine based on the idea of creating a high-performance, easy to use ray tracing only game engine. The project is being actively developed by one person, and at the moment it should be considered only as a tech demo. Also currently only precompiled binaries are available, but this may change in the future.
 
 ## Features
 ### Rendering
@@ -28,7 +28,9 @@ SmoEngine is an experimental 3D game engine based on the idea of creating a high
 - [x] Level Editor
 - [x] Physics: 2D ([Box2D](https://github.com/erincatto/box2d)), 3D ([Bullet3](https://github.com/bulletphysics/bullet3))
 - [x] Profilers: [Optick](https://github.com/bombomby/optick), [Nsight Graphics](https://developer.nvidia.com/nsight-graphics/)
+- [x] C++ 20
 - [ ] Networking
+- [ ] Pathfinding
 - [ ] Docs
 
 
