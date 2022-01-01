@@ -37,6 +37,7 @@ SmoEngine is an experimental 3D game engine based on the idea of creating a high
 ## Requirements
 - Ray tracing capable GPU (RTX 20 series or higher)
 - Visual Studio 2022 (full C++20 support)
+- Windows 10 or higher
 - Python 3.x
 
 ## Extensions
@@ -49,10 +50,10 @@ SmoEngine is an experimental 3D game engine based on the idea of creating a high
 - VK_KHR_SPIRV_1_4_EXTENSION_NAME
 - VK_KHR_SHADER_FLOAT_CONTROLS_EXTENSION_NAME
 
-## Building
-### Windows
+## Download
 1. Clone the repository: ```git clone https://github.com/Floritte/SmolEngine-SDK```
-2. Install [Vulkan SDK 1.2.198.1](https://vulkan.lunarg.com/sdk/home#windows) or higher
-3. Install [Python 3.9](https://www.python.org/downloads/) or higher
-4. Install [gdown](https://github.com/wkentaro/gdown) package: ```pip install gdown```
-5. Run `scripts/download_sdk.bat` to download SDK installer
+2. Install [Python](https://www.python.org/downloads/)
+3. Install [gdown](https://github.com/wkentaro/gdown) package: ```pip install gdown```
+4. Install [Vulkan SDK 1.2.198.1](https://vulkan.lunarg.com/sdk/home#windows) or higher
+5. Run `scripts/download_sdk.bat` to download SDK installer (60 MB)
+6. Run `editor/SmolEngine-Editor.exe`
