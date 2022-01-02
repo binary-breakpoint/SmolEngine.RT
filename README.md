@@ -1,5 +1,7 @@
 # SmolEngine SDK
 ![SmolEngine](https://i.imgur.com/ZSfnTCi.png)
+![SmolEngine](https://i.imgur.com/hVzuQyz.png)
+![SmolEngine](https://i.imgur.com/Wo8WxgA.png)
 
 SmoEngine is an experimental 3D game engine based on the idea of creating a high-performance, easy to use ray tracing only game engine. The project is being actively developed by one person, and at the moment it should be considered only as a tech demo. Also currently only precompiled binaries are available, but this may change in the future.
 
