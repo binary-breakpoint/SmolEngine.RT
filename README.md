@@ -3,8 +3,6 @@
 ![SmolEngine](https://i.imgur.com/hVzuQyz.png)
 ![SmolEngine](https://i.imgur.com/Wo8WxgA.png)
 
-SmoEngine is an experimental 3D game engine based on the idea of creating a high-performance, easy to use ray tracing only game engine. The project is being actively developed by one person, and at the moment it should be considered only as a tech demo. Also currently only precompiled binaries are available, but this may change in the future.
-
 ## Features
 ### Rendering
 - [x] Disney PBR
@@ -14,10 +12,14 @@ SmoEngine is an experimental 3D game engine based on the idea of creating a high
 - [x] [Dear ImGUI](https://github.com/ocornut/imgui) integration
 - [x] In-Game UI (text, buttons, input fields, etc)
 - [x] Raytracing/Graphics/Compute pipelines
+- [x] Full GLSL/HLSL support
 - [x] Bloom
+- [ ] [RTXDI](https://developer.nvidia.com/rtxdi)
+- [ ] [RTXGI](https://developer.nvidia.com/rtxgi)
+- [ ] [Real-Time Denoiser](https://developer.nvidia.com/nvidia-rt-denoiser)
+- [ ] [DLSS](https://www.nvidia.com/de-de/geforce/technologies/dlss/) 2.3
 - [ ] Skeleton animations (some support)
 - [ ] Custom materials (shaders)
-- [ ] [Real-Time Denoiser](https://developer.nvidia.com/nvidia-rt-denoiser)
 - [ ] Particle system
 
 ### Core
@@ -35,14 +37,18 @@ SmoEngine is an experimental 3D game engine based on the idea of creating a high
 - [ ] Pathfinding
 - [ ] Docs
 
-
 ## Requirements
 - Ray tracing capable GPU (RTX 20 series or higher)
 - Visual Studio 2022 (full C++20 support)
 - Windows 10 or higher
 - Python 3.x
 
-## Extensions
+## Limitations
+- Developed by one person for learning purposes
+- At a very early stage
+- No documentation yet
+
+## Vulkan Extensions
 - VK_KHR_16BIT_STORAGE_EXTENSION_NAME
 - VK_KHR_SHADER_FLOAT16_INT8_EXTENSION_NAME
 - VK_KHR_ACCELERATION_STRUCTURE_EXTENSION_NAME
@@ -52,7 +58,7 @@ SmoEngine is an experimental 3D game engine based on the idea of creating a high
 - VK_KHR_SPIRV_1_4_EXTENSION_NAME
 - VK_KHR_SHADER_FLOAT_CONTROLS_EXTENSION_NAME
 
-## Download
+## Download SDK
 1. Clone the repository: ```git clone https://github.com/Floritte/SmolEngine-SDK```
 2. Install [Python](https://www.python.org/downloads/)
 3. Install [gdown](https://github.com/wkentaro/gdown) package: ```pip install gdown```
