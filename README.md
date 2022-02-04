@@ -1,24 +1,27 @@
 # SmolEngine SDK
-![SmolEngine](https://i.imgur.com/ZSfnTCi.png)
-![SmolEngine](https://i.imgur.com/hVzuQyz.png)
-![SmolEngine](https://i.imgur.com/Wo8WxgA.png)
+![SmolEngine](https://i.imgur.com/CHIJC3m.png)
+# Level Editor
+![SmolEngine](https://i.imgur.com/bKSFaLY.png)
+![SmolEngine](https://i.imgur.com/h8k6VL3.png)
+
+<p align="center"> <img src="https://media.giphy.com/media/05n8je7Inq6EsMAxsn/giphy.gif" width="720" height="420" /> </p>
 
 ## Features
 ### Rendering
-- [x] Disney PBR
-- [x] Real-Time Path Tracer
-- [x] Own abstraction layer on top of Vulkan API
-- [x] [FidelityFX Super Resolution](https://www.amd.com/en/technologies/radeon-software-fidelityfx-super-resolution)
+- [x] RTX Direct Illumination [(RTXDI)](https://developer.nvidia.com/rtxdi)
+- [x] [ReLAX](https://developer.nvidia.com/nvidia-rt-denoiser) Real-Time Denoiser
+- [x] Deep Learning Super Sampling [(DLSS)](https://www.nvidia.com/de-de/geforce/technologies/dlss/)
+- [x] FidelityFX Super Resolution [(FSR)](https://www.amd.com/en/technologies/radeon-software-fidelityfx-super-resolution)
 - [x] [Dear ImGUI](https://github.com/ocornut/imgui) integration
+- [x] Own abstraction layer on top of Vulkan API
 - [x] In-Game UI (text, buttons, input fields, etc)
 - [x] Raytracing/Graphics/Compute pipelines
 - [x] Full GLSL/HLSL support
-- [x] Bloom
-- [ ] [RTXDI](https://developer.nvidia.com/rtxdi)
-- [ ] [RTXGI](https://developer.nvidia.com/rtxgi)
-- [ ] [Real-Time Denoiser](https://developer.nvidia.com/nvidia-rt-denoiser)
-- [ ] [DLSS](https://www.nvidia.com/de-de/geforce/technologies/dlss/) 2.3
-- [ ] Skeleton animations (some support)
+- [x] Direct and Indirect Lighting
+- [x] Bloom, Bokeh Depth of Field
+- [ ] RTX Global Illumination [(RTXGI)](https://developer.nvidia.com/rtxgi)
+- [ ] Skeleton animations
+- [ ] Mesh Lights
 - [ ] Custom materials (shaders)
 - [ ] Particle system
 
