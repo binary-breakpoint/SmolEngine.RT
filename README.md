@@ -44,7 +44,7 @@
 - Ray tracing capable GPU (RTX 20 series or higher)
 - Visual Studio 2022 (full C++20 support)
 - Windows 10 or higher
-- Python 3.x
+- Python 3.x and [gdown](https://github.com/wkentaro/gdown) package: ```pip install gdown```
 
 ## Limitations
 - Developed by one person for learning purposes
@@ -62,9 +62,9 @@
 - VK_KHR_SHADER_FLOAT_CONTROLS_EXTENSION_NAME
 
 ## Download SDK
-1. Clone the repository: ```git clone https://github.com/Floritte/SmolEngine-SDK```
-2. Install [Python](https://www.python.org/downloads/)
-3. Install [gdown](https://github.com/wkentaro/gdown) package: ```pip install gdown```
-4. Install [Vulkan SDK 1.2.198.1](https://vulkan.lunarg.com/sdk/home#windows) or higher
-5. Run `scripts/download_sdk.bat` to download SDK installer (60 MB)
-6. Run `editor/SmolEngine-Editor.exe`
+1. Install [Vulkan SDK](https://vulkan.lunarg.com/sdk/home#windows)
+2. Clone the repository: ```git clone https://github.com/Floritte/SmolEngine-SDK```
+3. Run `scripts/download_sdk.bat` to download SDK installer
+4. Run `editor/SmolEngine-Editor.exe`
+
+Sponza scene is located in the tests folder.
