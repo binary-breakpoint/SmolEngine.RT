@@ -17,21 +17,24 @@
 - [x] In-Game UI (text, buttons, input fields, etc)
 - [x] Raytracing/Graphics/Compute pipelines
 - [x] Full GLSL/HLSL support
+- [x] Post-Processing: Bokeh Depth of Field, Bloom
+- [x] UE4 Sky Atmosphere
 - [x] Direct and Indirect Lighting
-- [x] Bloom, Bokeh Depth of Field
 - [ ] RTX Global Illumination [(RTXGI)](https://developer.nvidia.com/rtxgi)
-- [ ] Skeleton animations
-- [ ] Mesh Lights
-- [ ] Custom materials (shaders)
+- [ ] Animations
+- [ ] Geometry lights
+- [ ] Scriptable pipeline
+- [ ] Mesh shaders
 - [ ] Particle system
+- [ ] VR support
 
 ### Core
 
 - [x] C#/C++ Scripting API
-- [x] Jobs System
-- [x] Audio
 - [x] Entity Component System
+- [x] Jobs System
 - [x] Prefabs
+- [x] Audio
 - [x] Level Editor
 - [x] Physics: 2D ([Box2D](https://github.com/erincatto/box2d)), 3D ([Bullet3](https://github.com/bulletphysics/bullet3))
 - [x] Profilers: [Optick](https://github.com/bombomby/optick), [Nsight Graphics](https://developer.nvidia.com/nsight-graphics/)
@@ -48,18 +51,21 @@
 
 ## Limitations
 - Developed by one person for learning purposes
-- At a very early stage
-- No documentation yet
+- At a very early stage, unstable API
+- No source code at the moment
+- No documentation
 
-## Vulkan Extensions
+## Extensions
 - VK_KHR_16BIT_STORAGE_EXTENSION_NAME
 - VK_KHR_SHADER_FLOAT16_INT8_EXTENSION_NAME
 - VK_KHR_ACCELERATION_STRUCTURE_EXTENSION_NAME
 - VK_KHR_RAY_TRACING_PIPELINE_EXTENSION_NAME
 - VK_KHR_BUFFER_DEVICE_ADDRESS_EXTENSION_NAME
-- VK_KHR_DEFERRED_HOST_OPERATIONS_EXTENSION_NAME
-- VK_KHR_SPIRV_1_4_EXTENSION_NAME
-- VK_KHR_SHADER_FLOAT_CONTROLS_EXTENSION_NAME
+- VK_NVX_BINARY_IMPORT_EXTENSION_NAME
+- VK_NVX_IMAGE_VIEW_HANDLE_EXTENSION_NAME
+### Debug builds
+- VK_NV_DEVICE_DIAGNOSTIC_CHECKPOINTS_EXTENSION_NAME
+- VK_NV_DEVICE_DIAGNOSTICS_CONFIG_EXTENSION_NAME
 
 ## Download SDK
 1. Install [Vulkan SDK](https://vulkan.lunarg.com/sdk/home#windows)
@@ -67,4 +73,4 @@
 3. Run `scripts/download_sdk.bat` to download SDK installer
 4. Run `editor/SmolEngine-Editor.exe`
 
-Sponza scene is located in the tests folder.
+The Sponza scene is located in the tests folder.
